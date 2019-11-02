@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./assets/app.scss (1)"],"names":[],"mappings":";AAAA,EAAE,sBAAsB,KAAK,6CAA6C,QAAQ,UAAU","file":"bundle.css","sourcesContent":["*{box-sizing:border-box}body{font-family:\"Nanum Gothic Coding\", monospace}section{width:80%;margin:0 auto}\n"],"sourceRoot":""}
