@@ -24,19 +24,19 @@ class Quakes extends React.Component {
         >
           [refresh]
         </a>
-        <ul>
+        <div>
           {quakes.map((quake, idx) => {
             const {
               properties: { detail, title },
             } = quake;
 
             return (
-              <li key={`link_${idx}`}>
+              <p key={`link_${idx}`}>
                 <a href={detail}>{title}</a>
-              </li>
+              </p>
             );
           })}
-        </ul>
+        </div>
       </>
     );
   }
