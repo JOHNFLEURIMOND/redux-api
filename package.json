@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "author": "John Fleurimond",
     "repository": {
-      "url": "[![]()](https://github.com/JOHNFLEURIMOND/redux-api)"
+        "url": "[![]()](https://github.com/JOHNFLEURIMOND/redux-api)"
     },
     "description": "[![]()](https://github.com/JOHNFLEURIMOND/redux-api)",
     "scripts": {
@@ -57,11 +57,22 @@
         "@babel/preset-react": "^7.0.0",
         "babel-loader": "^8.0.0",
         "css-loader": "^3.2.0",
+        "eslint-config-prettier": "^4.3.0",
+        "eslint-config-react-app": "^5.0.2",
+        "eslint-plugin-flowtype": "^4.3.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jest": "^23.0.3",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.16.0",
+        "eslint-plugin-react-hooks": "^2.2.0",
         "mini-css-extract-plugin": "^0.4.2",
         "node-sass": "^4.9.3",
         "sass-loader": "^7.1.0",
         "style-loader": "^0.21.0",
         "webpack-cli": "^3.1.0",
         "webpack-serve": "^2.0.2"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
     }
 }
