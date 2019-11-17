@@ -1,6 +1,11 @@
 {
-    "name": "playground",
+    "name": "reduxsaga",
     "version": "1.0.0",
+    "author": "John Fleurimond",
+    "repository": {
+      "url": "[![]()](https://github.com/JOHNFLEURIMOND/redux-api)"
+    },
+    "description": "[![]()](https://github.com/JOHNFLEURIMOND/redux-api)",
     "scripts": {
         "build": "webpack --mode production",
         "watch": "webpack --progress --watch",
@@ -22,16 +27,16 @@
         "grunt-shell": "~0.7.0",
         "immutable": "^3.8.2",
         "moment": "^2.24.0",
-        "react": "^16.5.0",
+        "prettier": "^1.18.2",
+        "react": "^16.12.0",
+        "react-animated-css": "^1.0.4",
         "react-dom": "^16.5.0",
-        "react-router-dom": "^5.1.2",
         "react-redux": "^5.0.7",
+        "react-router-dom": "^5.1.2",
         "react-saga": "^0.2.6",
         "reactstrap": "^7.1.0",
-        "react-animated-css": "^1.0.4",
         "redux": "^4.0.0",
         "redux-saga": "^0.16.2",
-        "prettier": "^1.18.2",
         "webpack": "^4.18.0"
     },
     "devDependencies": {
